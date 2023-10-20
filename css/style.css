@@ -1,0 +1,261 @@
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.company-description
+{
+    text-align: center;
+    font-weight: 400;
+}
+
+.item
+{
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+
+.item1
+{
+    border-top: hsl(180, 62%, 55%) 5px solid;
+    position: relative;
+    left: 200px;
+    top: 140px;    
+}
+
+.item2
+{
+    border-top: hsl(0, 78%, 62%) 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    margin-bottom: 20px;
+}
+
+.item3
+{
+    border-top: hsl(34, 97%, 64%) 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item4
+{
+    border-top: hsl(212, 86%, 64%) 5px solid;
+    margin-left: 850px;
+    position: relative;
+    top: -320px;
+    left: -50px;
+}
+
+#deep-description
+{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    color:  hsl(229, 6%, 66%);;
+    
+}
+
+.feature1
+{
+    width: 250px;
+}
+
+.feature2
+{
+    width: 230px;
+}
+
+.feature3
+{
+    width: 200px;
+}
+
+.feature4
+{
+    width: 200px;
+}
+
+svg
+{
+   margin-top: 20px;
+   margin-left: 150px;
+   
+}
+
+.reliable
+{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    
+}
+
+.powered
+{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    
+}
+
+.okay
+{
+    color: hsl(234, 12%, 34%)
+}
+
+/* For mobile design */
+@media(max-width: 414px)
+{
+    .attribution 
+    { 
+        font-size: 11px; 
+        text-align: center;
+    }
+    .attribution a 
+    { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color: hsl(0, 0%, 98%);
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .company-description
+    {
+        text-align: center;
+        font-weight: 400;
+        
+        
+    }
+
+    .item
+    {
+        background-color: white;
+        width: 270px;
+        height: 250px;
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 15px;
+        color: hsl(229, 6%, 66%);
+        font-weight: 400;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+
+    .item1
+    {
+        border-top: hsl(180, 62%, 55%) 5px solid;
+        position: static;
+        margin-top: 80px;
+    }
+
+    .item2
+    {
+        border-top: hsl(0, 78%, 62%) 5px solid;
+        
+        margin-top: 0;
+        
+    }
+
+    .item3
+    {
+        border-top: hsl(34, 97%, 64%) 5px solid;
+        
+        
+    }
+
+    .item4
+    {
+        border-top: hsl(212, 86%, 64%) 5px solid;
+        
+        position: static;
+        
+    }
+
+    #deep-description
+    {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        color:  hsl(229, 6%, 66%);
+        
+        
+    }
+
+    .feature1
+    {
+        width: 250px;
+    }
+
+    .feature2
+    {
+        width: 230px;
+    }
+
+    .feature3
+    {
+        width: 200px;
+    }
+
+    .feature4
+    {
+        width: 200px;
+    }
+
+    svg
+    {
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    }
+
+    .reliable
+    {
+        color: hsl(229, 6%, 66%);
+        font-weight: 200;
+        
+    }
+
+    .powered
+    {
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+        
+    }
+
+    .okay
+    {
+        color: hsl(234, 12%, 34%)
+    }   
+}
